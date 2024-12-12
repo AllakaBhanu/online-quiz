@@ -1,0 +1,28 @@
+#highScoresList {
+     list-style: none;
+     padding-left: 0;
+     margin-bottom: 4rem;
+   }
+   
+   .high-score {
+     font-size: 2.8rem;
+     margin-bottom: 0.5rem;
+     color: aliceblue;
+   }
+   
+   .high-score:hover {
+     transform: scale(1.025);
+   }
+   #highScores{
+     border: 5px solid black;
+     padding: 10%;
+     background-image: url('https://images.unsplash.com/photo-1647816733947-fa58811c75e9?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGFwZXIlMjB0ZXh0dXJlfGVufDB8fDB8fHww'); /* Replace with your image URL */
+     background-size: 900px;  /* Ensure the image covers the entire section */
+     background-position: center;  /* Center the image */
+     background-attachment: fixed;  /* Optional: Fixed background on scroll */
+     opacity: 0.9;  /* Optional: Make the entire section slightly transparent */
+     transition: opacity 0.5s ease-in-out;
+   }
+   
+   
+    
